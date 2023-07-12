@@ -10,9 +10,7 @@ void polygon(int a,int b,int c,int d)
 		glVertex3f(v[a][0],v[a][1],v[a][2]);
 		glVertex3f(v[b][0],v[b][1],v[b][2]);
 		glVertex3f(v[c][0],v[c][1],v[c][2]);
-		glVertex3f(v[d][0],v[d][1],v[d][2]);
-		glVertex3f(0,0,0);
-		glVertex3f(1,1,0);
+		glVertex3f(v[d][0],v[d][1],v[d][2]);	
 	glEnd();
 }
 
